@@ -19,4 +19,8 @@ app.get('/detail', function (req, res) {
     res.render('detail', req.query);
 });
 
+app.get('/processar_pagamento', function (req, res) {
+    res.render('teste', req.query);
+});
+
 app.listen(port);
